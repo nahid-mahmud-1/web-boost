@@ -1,0 +1,29 @@
+// GLOBAL SASS FILE;
+@use '../components/global' as *;
+
+// HEADER SECTION CSS
+.header-section{
+    background: $theme-secondary-color;
+    padding: 1rem 0rem;
+
+    .header-row{
+        align-items: center;
+    }
+    .logo-box{
+        
+        .site-logo{
+            max-width: 4rem;
+        }
+    }
+    .dark-mode-box{
+        text-align: right;
+
+        .dark-mode-icon{
+            max-width: 2.5rem;
+        }
+    }
+}
+
+
+
+

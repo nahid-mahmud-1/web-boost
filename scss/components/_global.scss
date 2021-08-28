@@ -1,0 +1,88 @@
+// GLOBAL THEME VARIABLES
+$theme-primary-color: #FECA57;
+$theme-secondary-color: #FBFBFB;
+$theme-section-bg-color: #EFEFEF;
+$theme-primary-font-color: #212121;
+$theme-secondary-font-color: #666666;
+$theme-color-white: #fff;
+$theme-color-black: #000;
+$theme-color-1: #EF5350;
+$theme-color-2: #FECA57;
+$theme-color-3: #90CAF9;
+$theme-color-4: #558B2F;
+
+// CUSTOMIZE BOOTSTRAP VARIABLES
+$accordion-border-color: $theme-color-white;
+$accordion-button-color: $theme-secondary-font-color;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-active-bg: $theme-color-white;
+$accordion-button-active-color: $theme-secondary-font-color;
+$accordion-button-icon: url("../images/arrow-down-icon.png");
+$accordion-button-active-icon: url("../images/arrow-down-icon.png");
+
+// IMPORT BOOTSTRAP
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// $accordion-button-active-icon:  url("");
+
+
+// CUSTOM FONTS
+@font-face{
+    font-family: kohinoor;
+    src: url(../fonts/kohinoor_bangla/KohinoorBangla-Bold.otf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: kohinoor;
+    src: url(../fonts/kohinoor_bangla/KohinoorBangla-Semibold.otf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: kohinoor;
+    src: url(../fonts/kohinoor_bangla/KohinoorBangla-Medium.otf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: kohinoor;
+    src: url(../fonts/kohinoor_bangla/KohinoorBangla-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: kohinoor;
+    src: url(../fonts/kohinoor_bangla/KohinoorBangla-Regular.otf);
+}
+
+// GLOBAL FONT
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: $theme-primary-font-color;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+a{
+    color: $theme-primary-font-color;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    color: $theme-primary-font-color;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: $theme-secondary-font-color;
+    font-size: 1.2rem;
+    font-family: kohinoor;
+    line-height: 2rem;
+}

@@ -1,0 +1,26 @@
+// IMPORT GLOBAL SASS FILE
+@use '../components/global' as *;
+
+// IMPORT THEME-ACCORDION FILE
+@use '../components/theme-accordion' as *;
+
+// ALL QUARTER SECTIONS STYLE
+.quarter-section{
+    background: $theme-secondary-color;
+    padding: 10rem 0rem 8rem;
+
+    .quarter-info{
+        padding: 0;
+        display: flex;
+
+        .quarter-info-item{
+            color: $theme-secondary-font-color;
+            list-style-type: none;
+            font-size: 1.5rem;
+            padding-right: 1rem;
+        }
+    } 
+    p{
+        line-height: 2.2rem;
+    }   
+}

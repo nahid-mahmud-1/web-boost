@@ -1,0 +1,119 @@
+// IMPORT GLOBAL SASS FILE
+@use '../components/global' as *;
+
+// INTRO SECTION CSS START
+.intro-section{
+    background: $theme-primary-color;
+    padding: 3rem 0rem 18rem;
+
+    h1{
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    p{
+        color: $theme-primary-font-color;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .intro-video-box{
+        position: relative;
+
+        .intro-video{
+            border: 0.5rem solid #212121;
+            border-radius: 0.3125rem;
+            margin: 1.5rem;
+            position: absolute;
+            width: 100%;
+        }
+    }
+}
+
+
+
+// MEDIA QUERY FOR ALL DEVICES
+// For Medium Devices
+@include media-breakpoint-down(lg) {
+
+    .intro-section{
+        padding-bottom: 14rem;
+
+        h1{
+            font-size: 3.6rem;
+        }
+        p{
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+        }
+
+        .intro-video-box{
+
+            .intro-video{
+                margin: 0;
+
+                iframe{
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+// For Small Devices
+@include media-breakpoint-down(md) {
+
+    .intro-section{
+        padding-bottom: 10rem;
+
+        h1{
+            font-size: 3.2rem;
+        }
+        p{
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+        }
+
+        .intro-video-box{
+
+            .intro-video{
+                margin: 0;
+
+                iframe{
+                    height: 350px;
+                }
+            }
+        }
+        
+    }    
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm) {
+
+    .intro-section{
+        padding-bottom: 8rem;
+
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.3rem;
+            line-height: 2rem;
+        }
+
+        .intro-video-box{
+
+            .intro-video{
+
+                margin: 0;
+
+                iframe{
+                    height: 250px;
+                }
+            }
+        }
+    }
+}

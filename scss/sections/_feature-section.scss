@@ -1,0 +1,12 @@
+// IMPORT GLOBAL SASS FILE
+@use '../components/global' as *;
+
+// FEATURE SECTION CSS
+.feature-section{
+    background: $theme-section-bg-color;
+    padding: 3rem 0rem;
+
+    .feature-box{
+        padding: 1.5rem;
+    }
+}

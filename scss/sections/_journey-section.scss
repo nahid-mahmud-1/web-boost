@@ -1,0 +1,16 @@
+// IMPORT GLOBAL STYLE FILE
+@use '../components/global' as *;
+
+// JOURNEY WITH STACK LEARNER CSS
+.journey-section{
+    background: $theme-secondary-color;
+    padding: 7rem 0rem;
+
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding-top: 1rem;
+    }
+}

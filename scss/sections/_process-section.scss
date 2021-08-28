@@ -1,0 +1,12 @@
+// IMPORT GLOBAL STYLE
+@use '../components/global' as *;
+
+// PROCESS SECTION CSS
+.process-section{
+    background: $theme-section-bg-color;
+    padding: 4rem 0rem;
+
+    .process-box{
+        padding: 1rem;
+    }
+}

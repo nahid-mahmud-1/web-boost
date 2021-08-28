@@ -1,0 +1,80 @@
+// IMPORT GLOBAL SASS FILE
+@use '../components/global' as *;
+
+// ABOUT SECTION CSS
+.about-section{
+    background: $theme-secondary-color;
+    padding: 18rem 0rem 5rem;
+
+    .about-title{
+        font-weight: 400;
+        text-align: center;
+    }
+    .about-dsc{
+        text-align: center;
+        padding-top: 1rem;
+        line-height: 2.2rem;
+    }
+
+    .milestone-box{
+        text-align: center;
+
+        .mile-number-box-1{
+            background: $theme-color-1;
+            width: 6.25rem;
+            height: 6.25rem;
+            border-radius: 100%;
+            margin: 1.5rem auto;
+
+            span{
+                color: $theme-color-white;
+                text-align: center;
+                line-height: 6.25rem;;
+                font-size: 2.2rem;
+                font-weight: 600;
+            }
+        }
+        .mile-number-box-2{
+            @extend .mile-number-box-1;
+            background: $theme-color-2;
+        }
+        .mile-number-box-3{
+            @extend .mile-number-box-1;
+            background: $theme-color-3;
+        }
+        .mile-number-box-4{
+            @extend .mile-number-box-1;
+            background: $theme-color-4;
+        }
+        p{
+           width: 90%;
+           margin: 0 auto;
+        }
+    }
+}
+
+
+
+
+// MEDIA QUERY FOR ALL DEVICES
+// For Medium Devices
+@include media-breakpoint-down(lg){
+
+}
+
+// For Small Devices
+@include media-breakpoint-down(md){
+
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm){
+    .about-section{
+        padding-top: 12rem;
+
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+}
+

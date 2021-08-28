@@ -1,0 +1,23 @@
+// IMPORT GLOBAL STYLE
+@use '../components/global' as *;
+
+// FOOTER SECTION STYLE
+.footer-section{
+    background: $theme-color-black;
+    padding: 4rem 0rem;
+
+    .foot-img-container{
+        display: flex;
+        padding: 1rem 2rem;
+
+        .foot-img-box{
+            margin: 0.5rem;
+        }
+    }
+
+    h5{
+        color: $theme-secondary-font-color;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
