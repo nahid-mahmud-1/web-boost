@@ -11469,7 +11469,7 @@ p {
 }
 @media (max-width: 575.98px) {
   .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
   .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText {
     flex-wrap: wrap;
@@ -11480,8 +11480,16 @@ p {
   .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText ul li {
     margin-right: 0.5rem;
   }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .quarter-details .quarter-accordion .child-accordion-button {
     font-size: 1.1rem !important;
+  }
+  .quarter-details .quarter-accordion .child-accordion-body {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .quarter-details .quarter-accordion .child-accordion-body p {
     font-size: 1.1rem;
@@ -11558,6 +11566,7 @@ p {
 .journey-section p {
   text-align: center;
   padding-top: 1rem;
+  line-height: 2.3rem;
 }
 
 .process-section {
