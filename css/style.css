@@ -11335,6 +11335,16 @@ p {
   padding: 1.5rem;
 }
 
+@media (max-width: 767.98px) {
+  .feature-section .feature-box {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .feature-section .feature-box {
+    text-align: center;
+  }
+}
 .quarter-details {
   background: #EFEFEF;
 }

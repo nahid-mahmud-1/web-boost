@@ -10,3 +10,33 @@
         padding: 1.5rem;
     }
 }
+
+
+
+
+// MEDIA QUERY FOR ALL DEVICES
+// For Medium Devices
+@include media-breakpoint-down(lg){
+
+}
+
+// For Small Devices
+@include media-breakpoint-down(md){
+    .feature-section{
+
+        .feature-box{
+            text-align: center;
+        }
+    }
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm){
+    
+    .feature-section{
+
+        .feature-box{
+            text-align: center;
+        }
+    }
+}
