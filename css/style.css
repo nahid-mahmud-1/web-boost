@@ -11176,6 +11176,21 @@ p {
   line-height: 2rem;
 }
 
+@media (max-width: 991.98px) {
+  h2, .h2 {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 767.98px) {
+  h2, .h2 {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 575.98px) {
+  h2, .h2 {
+    font-size: 2.5rem;
+  }
+}
 .header-section {
   background: #FBFBFB;
   padding: 1rem 0rem;
@@ -11324,7 +11339,7 @@ p {
     padding-top: 12rem;
   }
   .about-section h2 {
-    font-size: 2.5rem;
+    text-align: center;
   }
 }
 .feature-section {
@@ -11392,7 +11407,7 @@ p {
 }
 .quarter-details .quarter-accordion .child-accordion .child-accordion-button::before {
   content: "1";
-  width: 3rem;
+  width: 3.3rem;
   height: 3rem;
   background: #212121;
   border-radius: 100%;
@@ -11420,13 +11435,63 @@ p {
 .quarter-details .quarter-accordion-button::before {
   content: "";
   background-image: url(../images/runner.png);
-  width: 3.3rem;
+  width: 3.8rem;
   height: 3.3rem;
-  background-size: 3.3rem;
+  background-size: 3rem;
   background-repeat: no-repeat;
   margin-right: 1.5rem;
 }
 
+@media (max-width: 991.98px) {
+  .quarter-accordion-button .button-innerText {
+    flex-wrap: wrap;
+  }
+  .quarter-accordion-button .button-innerText ul {
+    padding: 0;
+  }
+  .quarter-accordion-button .button-innerText ul li {
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button {
+    font-size: 1.356rem;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText {
+    flex-wrap: wrap;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText ul {
+    padding: 0;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText ul li {
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button {
+    font-size: 1.1rem;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText {
+    flex-wrap: wrap;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText ul {
+    padding: 0;
+  }
+  .quarter-details .quarter-accordion .quarter-accordion-item .quarter-accordion-button .button-innerText ul li {
+    margin-right: 0.5rem;
+  }
+  .quarter-details .quarter-accordion .child-accordion-button {
+    font-size: 1.1rem !important;
+  }
+  .quarter-details .quarter-accordion .child-accordion-body p {
+    font-size: 1.1rem;
+    list-style: 1.5rem;
+  }
+  .quarter-details .quarter-accordion .child-accordion-body ul li {
+    font-size: 1.1rem;
+    list-style: 1.5rem;
+  }
+}
 .quarter-section {
   background: #FBFBFB;
   padding: 10rem 0rem 8rem;
@@ -11445,6 +11510,44 @@ p {
   line-height: 2.2rem;
 }
 
+@media (max-width: 991.98px) {
+  .quarter-section {
+    padding: 8rem 0rem 6rem;
+  }
+  .quarter-section .quarter-info .quarter-info-item {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .quarter-section {
+    padding: 3rem 0rem;
+  }
+  .quarter-section h2 {
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  .quarter-section .quarter-info {
+    justify-content: center;
+  }
+  .quarter-section p {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .quarter-section {
+    padding: 3rem 0rem;
+  }
+  .quarter-section h2 {
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  .quarter-section .quarter-info {
+    justify-content: center;
+  }
+  .quarter-section p {
+    text-align: center;
+  }
+}
 .journey-section {
   background: #FBFBFB;
   padding: 7rem 0rem;
@@ -11465,13 +11568,23 @@ p {
   padding: 1rem;
 }
 
+@media (max-width: 767.98px) {
+  .process-section .process-box {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .process-section .process-box {
+    text-align: center;
+  }
+}
 .footer-section {
   background: #000;
   padding: 4rem 0rem;
 }
 .footer-section .foot-img-container {
   display: flex;
-  padding: 1rem 2rem;
+  padding: 1rem 2.1rem;
 }
 .footer-section .foot-img-container .foot-img-box {
   margin: 0.5rem;
@@ -11480,6 +11593,19 @@ p {
   color: #666666;
   text-align: center;
   font-size: 1.3rem;
+}
+
+@media (max-width: 575.98px) {
+  .footer-section {
+    padding: 2rem 0rem;
+  }
+  .footer-section .foot-img-container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .footer-section h5 {
+    font-size: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,3 +24,64 @@
         line-height: 2.2rem;
     }   
 }
+
+
+
+// MEDIA QUERY FOR ALL DEVICES
+// For Medium Devices
+@include media-breakpoint-down(lg){
+    .quarter-section{
+        padding: 8rem 0rem 6rem;
+
+        h2{
+            
+
+        }
+        .quarter-info{
+            
+            .quarter-info-item{
+                font-size: 1.3rem;
+            }
+        }
+        p{
+            
+        }
+    }
+}
+
+// For Small Devices
+@include media-breakpoint-down(md){
+    .quarter-section{
+        padding: 3rem 0rem;
+
+        h2{
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+        .quarter-info{
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm){
+    
+    .quarter-section{
+        padding: 3rem 0rem;
+
+        h2{
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+        .quarter-info{
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}

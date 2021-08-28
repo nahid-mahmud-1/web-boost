@@ -60,7 +60,7 @@
             }
             .child-accordion-button::before{
                 content: "1";
-                width: 3rem;
+                width: 3.3rem;
                 height: 3rem;
                 background: #212121;
                 border-radius: 100%;
@@ -92,10 +92,112 @@
     .quarter-accordion-button::before{
         content: "";
         background-image: url(../images/runner.png);
-        width: 3.3rem;
+        width: 3.8rem;
         height: 3.3rem;
-        background-size: 3.3rem;
+        background-size: 3rem;
         background-repeat: no-repeat;
         margin-right: 1.5rem;
     }    
+}
+
+
+
+
+// MEDIA QUERY FOR ALL DEVICES
+// For Medium Devices
+@include media-breakpoint-down(lg){
+    
+    .quarter-accordion-button{
+
+        .button-innerText{
+            flex-wrap: wrap;
+            
+            ul{
+                padding: 0;
+
+                li{
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+// For Small Devices
+@include media-breakpoint-down(md){
+
+    .quarter-details{
+
+        .quarter-accordion{
+
+            .quarter-accordion-item{
+
+                .quarter-accordion-button{
+                    font-size: 1.356rem;
+
+                    .button-innerText{
+
+                        flex-wrap: wrap;
+
+                        ul{
+                            padding: 0;
+
+                            li{
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm){
+    
+    .quarter-details{
+
+        .quarter-accordion{
+
+            .quarter-accordion-item{
+
+                .quarter-accordion-button{
+                    font-size: 1.1rem;
+
+                    .button-innerText{
+
+                        flex-wrap: wrap;
+
+                        ul{
+                            padding: 0;
+
+                            li{
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .child-accordion-button{
+                font-size: 1.1rem !important;
+            }
+            .child-accordion-body{
+                
+                p{
+                    font-size: 1.1rem;
+                    list-style: 1.5rem;
+                }
+                ul{
+                    
+                    li{
+                        font-size: 1.1rem;
+                        list-style: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
 }

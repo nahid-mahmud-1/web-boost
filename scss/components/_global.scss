@@ -86,3 +86,24 @@ p{
     font-family: kohinoor;
     line-height: 2rem;
 }
+
+
+
+@include media-breakpoint-down(lg){
+    h2{
+        font-size: 2.7rem;
+    }
+}
+
+@include media-breakpoint-down(md){
+    h2{
+        font-size: 2.7rem;
+    }
+}
+
+// For X-Small Devices
+@include media-breakpoint-down(sm){
+    h2{
+        font-size: 2.5rem;
+    }
+}
